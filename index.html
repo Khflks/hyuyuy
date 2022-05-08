@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items:center; /*по вертикали*/
+    justify-content: space-evenly; /*по горизонтали*/
+    flex-wrap: wrap;
+    
+}
+
+h2{
+    background-color: rgb(255, 166, 0);
+    margin: 10px;
+}
+    </style>
+</head>
+
+<body>
+
+<script>
+
+  let q1 = 'Cколько тебе лет?'
+  let q2 = 'В каком городе ты живешь?'
+  let q3 = 'Cколько время?'
+
+let a1 = prompt(q1)
+
+
+if (a1 =='7'){
+    alert('Какой ты молодец!')
+} else if (a1=='8'){
+alert('Cупер!')
+
+}
+
+alert(typeof a1 )
+
+let a2 = prompt(q2)
+let a3 = prompt(q3)
+
+
+
+
+alert('Тебе '+a1+' лет, ты живешь в '+a2+' Сейчас '+a3)
+
+</script>
+
+
+
+</body>
+</html>
